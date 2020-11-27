@@ -1,0 +1,169 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition"
+
+// DATE "11/20/2020 21:25:09"
+
+// 
+// Device: Altera EP4CE6E22C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module MuxDemo3 (
+	f,
+	\GND ,
+	\VCC ,
+	d,
+	c,
+	b,
+	a);
+output 	f;
+input 	\GND ;
+input 	\VCC ;
+input 	d;
+input 	c;
+input 	b;
+input 	a;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \f~output_o ;
+wire \VCC~input_o ;
+wire \GND~input_o ;
+wire \a~input_o ;
+wire \d~input_o ;
+wire \c~input_o ;
+wire \b~input_o ;
+wire \inst|inst14|inst2~0_combout ;
+wire \inst|inst14|inst2~1_combout ;
+
+
+cycloneive_io_obuf \f~output (
+	.i(\inst|inst14|inst2~1_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\f~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \f~output .bus_hold = "false";
+defparam \f~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_ibuf \VCC~input (
+	.i(\VCC ),
+	.ibar(gnd),
+	.o(\VCC~input_o ));
+// synopsys translate_off
+defparam \VCC~input .bus_hold = "false";
+defparam \VCC~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \GND~input (
+	.i(\GND ),
+	.ibar(gnd),
+	.o(\GND~input_o ));
+// synopsys translate_off
+defparam \GND~input .bus_hold = "false";
+defparam \GND~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \a~input (
+	.i(a),
+	.ibar(gnd),
+	.o(\a~input_o ));
+// synopsys translate_off
+defparam \a~input .bus_hold = "false";
+defparam \a~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \d~input (
+	.i(d),
+	.ibar(gnd),
+	.o(\d~input_o ));
+// synopsys translate_off
+defparam \d~input .bus_hold = "false";
+defparam \d~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \c~input (
+	.i(c),
+	.ibar(gnd),
+	.o(\c~input_o ));
+// synopsys translate_off
+defparam \c~input .bus_hold = "false";
+defparam \c~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \b~input (
+	.i(b),
+	.ibar(gnd),
+	.o(\b~input_o ));
+// synopsys translate_off
+defparam \b~input .bus_hold = "false";
+defparam \b~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst14|inst2~0 (
+// Equation(s):
+// \inst|inst14|inst2~0_combout  = (\d~input_o  & ((!\b~input_o ) # (!\c~input_o ))) # (!\d~input_o  & ((\c~input_o ) # (\b~input_o )))
+
+	.dataa(\d~input_o ),
+	.datab(\c~input_o ),
+	.datac(\b~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|inst14|inst2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst14|inst2~0 .lut_mask = 16'h7E7E;
+defparam \inst|inst14|inst2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \inst|inst14|inst2~1 (
+// Equation(s):
+// \inst|inst14|inst2~1_combout  = (\a~input_o  & (\VCC~input_o )) # (!\a~input_o  & ((\inst|inst14|inst2~0_combout  & (\VCC~input_o )) # (!\inst|inst14|inst2~0_combout  & ((\GND~input_o )))))
+
+	.dataa(\VCC~input_o ),
+	.datab(\GND~input_o ),
+	.datac(\a~input_o ),
+	.datad(\inst|inst14|inst2~0_combout ),
+	.cin(gnd),
+	.combout(\inst|inst14|inst2~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|inst14|inst2~1 .lut_mask = 16'hAAAC;
+defparam \inst|inst14|inst2~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign f = \f~output_o ;
+
+endmodule

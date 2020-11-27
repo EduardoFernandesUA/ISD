@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/UA/ISD/ISDIG_A5/EqCmpDemo/simulation/qsim
+vEqCmp16
+!s110 1604693361
+!i10b 1
+!s100 I57<CAK^3H_;f5=ziUaO60
+ILTa4=W]W<zUXjJgdHo?iJ1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604693360
+Z2 8EqCmpDemo.vo
+Z3 FEqCmpDemo.vo
+Z4 L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1604693361.000000
+Z6 !s107 EqCmpDemo.vo|
+Z7 !s90 -work|work|EqCmpDemo.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@eq@cmp16
+vEqCmp16_vlg_vec_tst
+!s110 1604693362
+!i10b 1
+!s100 DhH9iKK2<o`RR11Y5AUdm2
+IdX>MITR6i<N<hD49>[X0Z1
+R1
+R0
+w1604693358
+8EqCmp16.vwf.vt
+FEqCmp16.vwf.vt
+Z10 L0 29
+R5
+r1
+!s85 0
+31
+!s108 1604693362.000000
+!s107 EqCmp16.vwf.vt|
+!s90 -work|work|EqCmp16.vwf.vt|
+!i113 1
+R8
+R9
+n@eq@cmp16_vlg_vec_tst
+vEqCmpDemo
+!s110 1604691451
+!i10b 1
+!s100 5zgeNeO24GZGAZzBjk8=60
+IPXm3eo>V]dK9<i1TPK_j43
+R1
+R0
+w1604691450
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!s108 1604691451.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@eq@cmp@demo
+vEqCmpDemo_vlg_vec_tst
+!s110 1604691452
+!i10b 1
+!s100 2[fE^<?B`4YnQBDDbMPmE1
+Ik>@5lYb1d;KoAoCjBdaP_1
+R1
+R0
+w1604691448
+8EqCmpDemo.vwf.vt
+FEqCmpDemo.vwf.vt
+R10
+R5
+r1
+!s85 0
+31
+!s108 1604691452.000000
+!s107 EqCmpDemo.vwf.vt|
+!s90 -work|work|EqCmpDemo.vwf.vt|
+!i113 1
+R8
+R9
+n@eq@cmp@demo_vlg_vec_tst

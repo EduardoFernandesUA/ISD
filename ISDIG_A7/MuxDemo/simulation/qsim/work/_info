@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/UA/ISD/ISDIG_A7/MuxDemo/simulation/qsim
+vMuxDemo
+!s110 1605885419
+!i10b 1
+!s100 0e6M1NlSz0_>560<EJa4_3
+Ih@G;?EUf2U341k`fJLT=K2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605885418
+Z2 8MuxDemo.vo
+Z3 FMuxDemo.vo
+Z4 L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1605885419.000000
+Z7 !s107 MuxDemo.vo|
+Z8 !s90 -work|work|MuxDemo.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@mux@demo
+vMuxDemo2
+Z11 !s110 1605907334
+!i10b 1
+!s100 eQ@zIO473?19hJbbW72^E2
+I?DdE:0nn9V50UMJzA4O]Z2
+R1
+R0
+w1605907333
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1605907334.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@mux@demo2
+vMuxDemo2_vlg_vec_tst
+R11
+!i10b 1
+!s100 Ij?A7fY9a8=U2L[1F_ihz0
+IVAI]3;6HGWNj;>OdK?nkG0
+R1
+R0
+w1605907332
+Z13 8Waveform.vwf.vt
+Z14 FWaveform.vwf.vt
+Z15 L0 29
+R5
+r1
+!s85 0
+31
+R12
+Z16 !s107 Waveform.vwf.vt|
+Z17 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+R10
+n@mux@demo2_vlg_vec_tst
+vMuxDemo3
+Z18 !s110 1605907510
+!i10b 1
+!s100 B?QWI9W8dSGk11I5fcenQ2
+IW<>MEQG71mJR_KDjOEX2]2
+R1
+R0
+w1605907509
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z19 !s108 1605907510.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@mux@demo3
+vMuxDemo3_vlg_vec_tst
+R18
+!i10b 1
+!s100 CS9eU;P7GXm3XFk1d`GNU0
+IEeIWFKDhY5JfO=WK80Gle3
+R1
+R0
+w1605907508
+R13
+R14
+R15
+R5
+r1
+!s85 0
+31
+R19
+R16
+R17
+!i113 1
+R9
+R10
+n@mux@demo3_vlg_vec_tst
+vMuxDemo_vlg_vec_tst
+!s110 1605885420
+!i10b 1
+!s100 RSUW[LIFkd=cf_bgjgKfT1
+Iazo8P9n5C@[TZ_39cPkM10
+R1
+R0
+w1605885416
+R13
+R14
+R15
+R5
+r1
+!s85 0
+31
+R6
+R16
+R17
+!i113 1
+R9
+R10
+n@mux@demo_vlg_vec_tst

@@ -1,0 +1,32 @@
+# do MuxDemo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:10 on Nov 20,2020
+# vlog -work work MuxDemo.vo 
+# -- Compiling module MuxDemo3
+# 
+# Top level modules:
+# 	MuxDemo3
+# End time: 21:25:10 on Nov 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:10 on Nov 20,2020
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module MuxDemo3_vlg_vec_tst
+# 
+# Top level modules:
+# 	MuxDemo3_vlg_vec_tst
+# End time: 21:25:10 on Nov 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MuxDemo2_vlg_vec_tst 
+# Start time: 21:25:11 on Nov 20,2020
+# Loading work.MuxDemo2_vlg_vec_tst
+# Loading work.MuxDemo2
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#25
+# ** Note: $finish    : Waveform.vwf.vt(82)
+#    Time: 1 us  Iteration: 0  Instance: /MuxDemo2_vlg_vec_tst
+# End time: 21:25:11 on Nov 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

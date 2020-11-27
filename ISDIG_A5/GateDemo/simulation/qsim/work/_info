@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Documents/UA/ISD/ISDIG_A5/simulation/qsim
+vGateDemo
+!s110 1604689565
+!i10b 1
+!s100 cSRgdTNW?ici^^BjkC;^V3
+I1j_3XEnokQg5No5hm<;YD3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604689564
+8GateDemo.vo
+FGateDemo.vo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1604689565.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@gate@demo
+vGateDemo_vlg_vec_tst
+!s110 1604689566
+!i10b 1
+!s100 LZZ5T`5^<IU[g2XKPRz:Y3
+IZamJ=OIKFl6^lMN1H=TQY1
+R1
+R0
+w1604689562
+8GateDemoNand.vwf.vt
+FGateDemoNand.vwf.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1604689566.000000
+!s107 GateDemoNand.vwf.vt|
+!s90 -work|work|GateDemoNand.vwf.vt|
+!i113 1
+R3
+R4
+n@gate@demo_vlg_vec_tst
